@@ -1,26 +1,27 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
 <div id="body-container">
 
-          <section id="top-sec">
+          <section id="top-sec" class="cf">
 
-<header>
+<header id="facelook">
   <h1>Facelook</h1>
 </header>
+<div id="first-form-container">
 
-<form class="" action="" method="post">
-
-  <input type="email" name="log-in-email" placeholder="Email">
-  <input type="password" name="password" placeholder="Password">
-  <input type="button" name="log-in-button" value="Log-In">
+<form class="form-styles" action="" method="post">
+  <input class="top-forms" type="email" name="log-in-email" placeholder="Email">
+  <input class="top-forms" type="password" name="password" placeholder="Password">
+  <input id="top-form-button" type="button" name="log-in-button" value="Log-In">
 
 </form>
+</div>
 
           </section>
 
@@ -40,20 +41,22 @@
 
            <section id="form-sec">
 
-            <form class="" action="" method="post">
+            <form class="form-styles" action="" method="post">
 
-               <input type="text" name="first-name" placeholder="First-Name">
-               <input type="text" name="last-name" placeholder="Last-Name">
-               <input type="email" name="your-email" placeholder="Your-Email">
-               <input type="password" name="your-new-password" placeholder="Your-New-Password">
-               <input type="password" name="confirm-password" placeholder="Confirm-Your-Password">
+               <input class="names" type="text" name="first-name" placeholder="First-Name">
+               <input class="names" type="text" name="last-name" placeholder="Last-Name"> <br /><br />
+               <input class="wide-forms" type="email" name="your-email" placeholder="Your-Email"><br /><br />
+               <input class="wide-forms" type="password" name="your-new-password" placeholder="Your-New-Password"><br /><br />
+               <input class="wide-forms" type="password" name="confirm-password" placeholder="Confirm-Your-Password"><br /><br />
+
+
                <label for="Birthday">Birthday</label>
-               <input type="date" id="Birthday" name="Birthday" value="">
-               <label for="Male">Male</label>
-               <input type="checkbox" id="Male" name="Male" value="">
-               <label for="Female">Female</label>
-               <input type="checkbox" id="Female" name="Female" value="">
-               <input type="button" name="submit-button" value="Sign-up">
+               <input type="date" id="Birthday" name="Birthday" value=""><br /><br />
+               <label for="male">Male</label>
+               <input type="radio" id="male" name="gender" value="male"><br /><br />
+               <label for="female">Female</label>
+               <input type="radio" id="female" name="gender" value="female"><br /><br />
+               <input id="big-submit-button" type="button" name="submit-button" value="Sign-up">
 
             </form>
 
