@@ -27,6 +27,7 @@ body {
   max-width: 1200px;
   min-width: 900px;
   margin: 0 auto;
+  height: 100%;
 }
 
 #top-sec {
@@ -43,9 +44,7 @@ body {
   margin: 1em 0 1em 2em;
 }
 
-#facelook h1 {
 
-}
 
 #first-form-container {
   float: right;
@@ -62,5 +61,70 @@ body {
 
 
 #text-sec {
+float: left;
+text-align: center;
+width: 52%;
+margin-top: 5em;
+line-height: 3em;
+}
 
+
+#text-sec-head {
+  font-size: 170%;
+  text-align: left;
+  margin-left: 20%;
+}
+
+
+#text-sec li {
+  list-style-type: none;
+}
+
+
+
+
+#form-sec {
+  margin-top: 4em;
+  float: right;
+  width: 46%;
+}
+
+#form-box {
+  width: 24em;
+  margin: 0 auto;
+}
+
+
+#form-header {
+  width: 8.1em;
+  font-size: 170%;
+  margin-left: 6em;
+  margin-bottom: 1em;
+}
+
+
+.names {
+ width: 48%;
+}
+
+
+.wide-forms {
+  width: 97.5%;
+}
+
+
+#radio-submit-buttons {
+  width: 24em;
+  margin: 0 auto;
+}
+
+
+#male {
+  margin-right: 2em;
+}
+
+
+
+#big-submit-button {
+ width: 16em;
 }

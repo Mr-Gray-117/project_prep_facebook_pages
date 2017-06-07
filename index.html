@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-<div id="body-container">
+<div id="body-container" class="cf">
 
           <section id="top-sec" class="cf">
 
@@ -28,7 +28,7 @@
                    <section id="text-sec">
                             <div>
 
-                                <h2>Connect with all your friends!</h2>
+                                <h2 id="text-sec-head">Connect with all your friends!</h2>
                                 <ul>
                                 <li>See photos and updates in your news feed</li>
                                 <li>Post your status for the world to see from your profile</li>
@@ -41,23 +41,28 @@
 
            <section id="form-sec">
 
-            <form class="form-styles" action="" method="post">
+             <header id="form-header">
+               <h1>Sign up here</h1>
+             </header>
 
+            <form class="form-styles" action="" method="post">
+             <div id="form-box">
                <input class="names" type="text" name="first-name" placeholder="First-Name">
                <input class="names" type="text" name="last-name" placeholder="Last-Name"> <br /><br />
                <input class="wide-forms" type="email" name="your-email" placeholder="Your-Email"><br /><br />
                <input class="wide-forms" type="password" name="your-new-password" placeholder="Your-New-Password"><br /><br />
                <input class="wide-forms" type="password" name="confirm-password" placeholder="Confirm-Your-Password"><br /><br />
+             </div>
 
-
-               <label for="Birthday">Birthday</label>
-               <input type="date" id="Birthday" name="Birthday" value=""><br /><br />
+             <div id="radio-submit-buttons">
+               <label for="date">Birthday</label>
+               <input type="date" id="date" name="date" value=""><br /><br />
                <label for="male">Male</label>
-               <input type="radio" id="male" name="gender" value="male"><br /><br />
+               <input type="radio" id="male" name="gender" value="male">
                <label for="female">Female</label>
                <input type="radio" id="female" name="gender" value="female"><br /><br />
                <input id="big-submit-button" type="button" name="submit-button" value="Sign-up">
-
+            </div>
             </form>
 
           </section>
