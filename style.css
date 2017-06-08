@@ -252,6 +252,55 @@ line-height: 3em;
   height: 24em;
 }
 
-#profile-pic {
+#list-and-link-box {
 
+}
+
+#list-and-link-box li {
+  list-style-type: none;
+  float: left;
+  text-align: center;
+  width: 15%;
+  line-height: 3em;
+  background: #FA7100;
+  outline: white solid;
+  margin-top: 20.9em;
+
+}
+
+#list-and-link-box a {
+display: block;
+color: black;
+text-decoration: none;
+}
+
+#list-and-link-box a:hover {
+  background-color: #FF7E39;
+}
+
+#list-and-link-box h1 a:hover {
+  background-color: #010202;
+}
+
+#profile-pic {
+height: 7em;
+width: 6em;
+background: green;
+float: left;
+border-radius: 20px;
+margin: 17em 3em 0 3em;
+}
+
+
+#edit-profile {
+  font-size: 110%;
+  color: white;
+  float: left;
+  width: 7.6em;
+  margin: 19.5em 0 0 5em;
+  text-align: center;
+}
+
+#edit-profile a {
+  color: white;
 }
