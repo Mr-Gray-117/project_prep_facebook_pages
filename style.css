@@ -132,3 +132,126 @@ line-height: 3em;
  color: white;
  cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* styles for the about page */
+
+
+
+
+
+
+
+
+
+
+
+
+#about-body {
+  width: 100%;
+  max-width: 100%;
+  min-width: 900px;
+}
+
+
+
+#about-body-container{
+ max-width: 1200px;
+ min-width: 900px;
+ margin: 0 auto;
+ background: blue;
+}
+
+
+
+
+
+
+#top-header {
+  background: #1254EC;
+  width: 100%;
+  margin-top: 3em;
+}
+
+#logo {
+  float: left;
+  background: red;
+  width: 4em;
+  height: 4.3em;
+  margin-left: 4em;
+  margin-top: 0.7em;
+}
+
+#site-name {
+  line-height: 2.6em;
+  margin-left: 0.5em;
+  font-size: 200%;
+  float: left;
+  color: white;
+}
+
+#search-input {
+  margin-top: 2.3em;
+  margin-left: 4em;
+  float: left;
+  width: 44em;
+  line-height: 1.7em;
+}
+
+#header-name {
+  float: left;
+  line-height: 3.8em;
+  margin-left: 12.3em;
+  font-size: 150%;
+  color: white;
+
+}
+
+#banner-plus-menu {
+  height: 24em;
+}
+
+#profile-pic {
+
+}
