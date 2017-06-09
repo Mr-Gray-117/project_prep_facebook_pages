@@ -205,6 +205,29 @@ line-height: 3em;
 
 
 
+#logo-box {
+width: 25%;
+float: left;
+}
+
+
+#site-name-box {
+  width: 25%;
+  float: left;
+}
+
+#search-input-box {
+  width: 25%;
+  float: left;
+}
+
+
+#header-name-box {
+  width: 25%;
+  float: left;
+}
+
+
 
 
 
@@ -219,32 +242,32 @@ line-height: 3em;
   background: red;
   width: 4em;
   height: 4.3em;
-  margin-left: 4em;
-  margin-top: 0.7em;
+  margin: 0.5em 43% 0 43%;
+  border: gold ridge 4px;
 }
 
 #site-name {
   line-height: 2.6em;
-  margin-left: 0.5em;
+  margin: 0 37% 0 37%;
   font-size: 200%;
   float: left;
   color: white;
 }
 
 #search-input {
-  margin-top: 2.3em;
-  margin-left: 4em;
+  margin: 2.3em 30% 0 30%;
   float: left;
-  width: 44em;
+  width: 45%;
   line-height: 1.7em;
 }
 
 #header-name {
   float: left;
   line-height: 3.8em;
-  margin-left: 12.3em;
+  margin: 0 44% 0 44%;
   font-size: 150%;
   color: white;
+
 
 }
 
