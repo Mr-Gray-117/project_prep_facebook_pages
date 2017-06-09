@@ -198,10 +198,11 @@ line-height: 3em;
 
 #about-body-container{
  max-width: 1200px;
- min-width: 900px;
+ min-width: 1100px;
  margin: 0 auto;
- background: blue;
 }
+
+
 
 
 
@@ -273,6 +274,8 @@ float: left;
 
 #banner-plus-menu {
   height: 24em;
+  border-bottom: 6px black solid;
+  background: blue;
 }
 
 #list-and-link-box {
@@ -284,9 +287,11 @@ float: left;
   float: left;
   text-align: center;
   width: 15%;
-  line-height: 3em;
+  line-height: 2.9em;
   background: #FA7100;
-  outline: white solid;
+  border-top: 3px red solid;
+  border-left: 3px red solid;
+  border-right: 3px red solid;
   margin-top: 20.9em;
 
 }
@@ -324,6 +329,53 @@ margin: 17em 3em 0 3em;
   text-align: center;
 }
 
+/*styles for section 2*/
+
+#sec-2 {
+  border: 3px black solid;
+  margin-bottom: 7em;
+}
+
 #edit-profile a {
   color: white;
+}
+
+
+
+#bottum-header-box {
+  width: 100%;
+  height: 5em;
+  background: grey;
+  border-top: 12px white solid;
+}
+
+#bottum-header {
+  text-align: center;
+  float: left;
+  width: 7%;
+  margin: 1% 45%;
+}
+
+#bottum-header h2 {
+  float: left;
+}
+
+#edit-profile-button {
+  float: right;
+  margin-top: 3%;
+  margin-left: 600%;
+}
+
+#article-1 {
+float: left;
+width: 17em;
+margin-top: 3em;
+margin-bottom: 2.5em;
+}
+
+#article-2{
+  float: right;
+  width: 38em;
+  margin-top: 3em;
+
 }
