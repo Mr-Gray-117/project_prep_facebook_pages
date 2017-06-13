@@ -1,0 +1,345 @@
+* {
+  margin:0px;
+  padding: 0px;
+
+ }
+
+.cf:before,
+.cf:after {
+ content:" ";
+ display: table;
+}
+
+.cf:after{
+  clear: both;
+}
+/* for IE 6/7 (trigger haslayout)*/
+
+.clearfix{
+  zoom:1;
+}
+
+.flex{
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  max-width: 1200px;
+  min-width: 900px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+#top-sec {
+  width: 100%;
+  height: 7em;
+  background: #295BE3;
+
+#facelook {
+  float: left;
+  font-size: 150%;
+  color: white;
+  width: 11.6%;
+  margin: 1em 0 1em 2em;
+}
+
+#first-form-container {
+  float: right;
+  width: 26em;
+  margin: 2.3em 0;
+}
+
+#top-form-button {
+  width: 4em;
+  cursor: pointer;
+  }
+}
+
+
+
+
+
+
+#text-sec {
+float: left;
+text-align: center;
+width: 52%;
+margin-top: 5em;
+line-height: 3em;
+
+
+
+#text-sec-head {
+  font-size: 170%;
+  text-align: left;
+  margin-left: 20%;
+}
+
+
+#text-sec li {
+  list-style-type: none;
+ }
+}
+
+
+
+
+
+
+
+
+#form-sec {
+  margin-top: 4em;
+  float: right;
+  width: 46%;
+
+
+#form-box {
+  width: 24em;
+  margin: 0 auto;
+}
+
+
+#form-header {
+  width: 8.1em;
+  font-size: 170%;
+  margin-left: 6em;
+  margin-bottom: 1em;
+}
+
+
+.names {
+ width: 48%;
+}
+
+
+.wide-forms {
+  width: 97.5%;
+}
+
+
+#radio-submit-buttons {
+  width: 24em;
+  margin: 0 auto;
+}
+
+
+#male {
+  margin-right: 2em;
+}
+
+
+
+#big-submit-button {
+ width: 16em;
+ height: 3em;
+ background: #255D25;
+ color: white;
+ cursor: pointer;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* about.html styles */
+
+
+#about-body {
+  width: 100%;
+  max-width: 100%;
+  min-width: 900px;
+
+
+
+
+#about-body-container{
+ max-width: 1200px;
+ min-width: 1100px;
+ margin: 0 auto;
+}
+
+
+
+
+
+#logo-box {
+width: 25%;
+float: left;
+}
+
+
+#site-name-box {
+  width: 25%;
+  float: left;
+}
+
+#search-input-box {
+  width: 25%;
+  float: left;
+}
+
+
+#header-name-box {
+  width: 25%;
+  float: left;
+ }
+}
+
+
+
+
+#banner-plus-menu {
+  height: 24em;
+  border-bottom: 6px black solid;
+  background: blue;
+
+
+#list-and-link-box {
+
+}
+
+#list-and-link-box li {
+  list-style-type: none;
+  float: left;
+  text-align: center;
+  width: 15%;
+  line-height: 2.9em;
+  background: #FA7100;
+  border-top: 3px red solid;
+  border-left: 3px red solid;
+  border-right: 3px red solid;
+  margin-top: 20.9em;
+
+}
+
+#list-and-link-box a {
+display: block;
+color: black;
+text-decoration: none;
+}
+
+#list-and-link-box a:hover {
+  background-color: #FF7E39;
+}
+
+#list-and-link-box h1 a:hover {
+  background-color: #010202;
+}
+
+#profile-pic {
+height: 7em;
+width: 6em;
+background: green;
+float: left;
+border-radius: 20px;
+margin: 17em 3em 0 3em;
+}
+
+
+#edit-profile {
+  font-size: 110%;
+  color: white;
+  float: left;
+  width: 7.6em;
+  margin: 19.5em 0 0 5em;
+  text-align: center;
+ }
+}
+
+
+
+
+
+#sec-2 {
+  border: 3px black solid;
+  margin-bottom: 7em;
+
+
+#edit-profile a {
+  color: white;
+}
+
+
+
+#bottum-header-box {
+  width: 100%;
+  height: 5em;
+  background: grey;
+  border-top: 12px white solid;
+}
+
+#bottum-header {
+  text-align: center;
+  float: left;
+  width: 7%;
+  margin: 1% 45%;
+}
+
+#bottum-header h2 {
+  float: left;
+}
+
+#edit-profile-button {
+  float: right;
+  margin-top: 3%;
+  margin-left: 600%;
+}
+
+#article-1 {
+float: left;
+width: 17em;
+margin-top: 3em;
+margin-left: 3em;
+margin-bottom: 2.5em;
+}
+
+#article-2{
+  float: right;
+  width: 38em;
+  margin-top: 3em;
+  margin-right: 1em;
+
+ }
+}
